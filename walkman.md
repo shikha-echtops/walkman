@@ -91,13 +91,13 @@ $cd walkman_html
 $sudo vim wp-config-sample.php
 ```
 write db_name user_name and Password in it.
-```
+
 ### Check hosts...
 ``` 
 $sudo vim /etc/hosts
 ```
 
-write this inside hosts
+### Write this inside hosts
 ```
 127.0.0.1 www.walkman.lan walkman.lan 
 ```
