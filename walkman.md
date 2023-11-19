@@ -1,7 +1,8 @@
 ### How to make work walkman.lan site.
- First install LAMP.
 
-'''Login to mysql'''
+### First install LAMP.
+
+### Login to mysql
 ```$sudo mysql```
 ```
 mysql> create database db_name;
@@ -89,7 +90,6 @@ Paste the following in configuration block.
 $cd walkman_html
 $sudo vim wp-config-sample.php
 ```
-```
 write db_name user_name and Password in it.
 ```
 ### Check hosts...
@@ -97,8 +97,8 @@ write db_name user_name and Password in it.
 $sudo vim /etc/hosts
 ```
 
-```
 write this inside hosts
+```
 127.0.0.1 www.walkman.lan walkman.lan 
 ```
 
