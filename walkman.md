@@ -3,12 +3,14 @@
 ### First install LAMP.
 
 ### Login to mysql
-```$sudo mysql```
 ```
-mysql> create database ```db_name```;
+$sudo mysql
+```
+```
+mysql> create database db_name;
 mysql> show databases;
-mysql> create user ```'user_name'```@'localhost' identified by ```'Password'```;
-mysql> grant all privileges on ```db_name```.* to ```'user_name'```@'localhost';
+mysql> create user 'user_name'@'localhost' identified by 'Password';
+mysql> grant all privileges on db_name.* to 'user_name'@'localhost';
 ```
 ### Download Wordpress.
 
