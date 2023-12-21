@@ -21,7 +21,7 @@ curl -O https://wordpress.org/latest.zip
 ```
 $mkdir walkman_html
 $unzip latest.zip 
-$sudo mv wordpress ~/walkman_html
+$sudo mv ~/wordpress/* ~/walkman_html
 ```
 ```
 $sudo mkdir -p /var/www/walkman.lan/public_html
